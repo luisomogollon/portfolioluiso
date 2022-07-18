@@ -1,5 +1,4 @@
 import React from "react";
-import Typical from "react-typical";
 import { Link } from "react-scroll";
 
 export const NavBar = () => {
@@ -45,12 +44,7 @@ export const NavBar = () => {
       <div class="hero min-h-screen bg-gradient-to-r from-black via-sky-900 to-rose-800">
         <div class="hero-content text-center">
           <div class="max-w-md">
-            <Typical
-              steps={["Luis Michinaux", 550]}
-              loop={Infinity}
-              className="inline-block text-1xl font-bold"
-            />
-
+            Luis Michinaux
             <h2 class="text-6xl font-bold ">Frontend Developer </h2>
             <p class="py-6 ">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
