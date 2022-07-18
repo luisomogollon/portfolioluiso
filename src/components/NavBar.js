@@ -6,7 +6,7 @@ export const NavBar = () => {
     <>
       <div class="navbar bg-base-100">
         <div class="flex-1">
-          <a class="btn btn-ghost normal-case text-xl">LuisoUI</a>
+          <button class="btn btn-ghost normal-case text-xl">LuisoUI</a>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal p-0">
@@ -49,7 +49,7 @@ export const NavBar = () => {
             <p class="py-6 ">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              et buttonid nisi.
             </p>
             <button class="btn btn-primary animate-bounce">Contact Me</button>
           </div>
