@@ -6,7 +6,7 @@ export const NavBar = () => {
     <>
       <div class="navbar bg-base-100">
         <div class="flex-1">
-          <button class="btn btn-ghost normal-case text-xl">LuisoUI</a>
+          <button class="btn btn-ghost normal-case text-xl">LuisoUI</button>
         </div>
         <div class="flex-none">
           <ul class="menu menu-horizontal p-0">
