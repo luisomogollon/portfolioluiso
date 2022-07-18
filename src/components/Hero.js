@@ -7,14 +7,14 @@ import imagenes from "../src/assets/imagenes";
 const Hero = () => {
   return (
     <>
-      <div class="card lg:card-side bg-base-100 shadow-xl">
+      <div className="card lg:card-side bg-base-100 shadow-xl">
         <figure>
           <img src={imagenes[2]} alt="Album" />
         </figure>
 
-        <div class="card-body ">
-          <h2 class="card-title">New album is released!</h2>
-          <p class=" text-lg">
+        <div className="card-body ">
+          <h2 className="card-title">New album is released!</h2>
+          <p className=" text-lg">
             <br />
             Now, after gaining a good knowledge about the React ecosystem,
             having played with some of the most popular libraries, such as
@@ -28,45 +28,45 @@ const Hero = () => {
             websites, landing pages, and doing some mailings.
           </p>
 
-          <div class="card-actions justify-end">
+          <div className="card-actions justify-end">
             {" "}
-            <section class=" " id="Skills"></section>
+            <section className=" " id="Skills"></section>
             
-            <a class="btn btn-primary px-3 py-0" href="./docu.pdf"> Download Cv</a>
+            <a className="btn btn-primary px-3 py-0" href="./docu.pdf"> Download Cv</a>
           </div>
         </div>
       </div>
-      <div class="text-10xl font-bold flex  place-content-center bg-gradient-to-r from-black via-sky-900 to-rose-800">
+      <div className="text-10xl font-bold flex  place-content-center bg-gradient-to-r from-black via-sky-900 to-rose-800">
         <br />
       </div>
 
-      <h2 class=" text-center avatar-group text-4xl font-bold flex space-x-20 pt-20 justify-center  bg-gradient-to-r from-black via-sky-900 to-rose-800 ">
+      <h2 className=" text-center avatar-group text-4xl font-bold flex space-x-20 pt-20 justify-center  bg-gradient-to-r from-black via-sky-900 to-rose-800 ">
         Skills{" "}
       </h2>
-      <div class=" flex flex-wrap space-x-10 pt-20 justify-center  bg-gradient-to-r from-black via-sky-900 to-rose-800">
+      <div className=" flex flex-wrap space-x-10 pt-20 justify-center  bg-gradient-to-r from-black via-sky-900 to-rose-800">
         <div>
           <div></div>
-          <svg class=" w-15 h-20 " viewBox="01 01 24 20 ">
+          <svg className=" w-15 h-20 " viewBox="01 01 24 20 ">
             <DiReact />
           </svg>
         </div>
         <div>
-          <svg class=" w-15 h-20  " viewBox="01 01 24 20 ">
+          <svg className=" w-15 h-20  " viewBox="01 01 24 20 ">
             <SiJavascript />
           </svg>
         </div>
         <div>
-          <svg class=" w-15 h-20  " viewBox="01 01 24 20 ">
+          <svg className=" w-15 h-20  " viewBox="01 01 24 20 ">
             <SiHtml5 />
           </svg>
         </div>
         <div>
-          <svg class="w-15 h-20  " viewBox="01 01 24 20 ">
+          <svg className="w-15 h-20  " viewBox="01 01 24 20 ">
             <FaCss3 />
           </svg>
         </div>
         <div>
-          <svg class="w-15 h-20" viewBox="01 01 24 20 ">
+          <svg className="w-15 h-20" viewBox="01 01 24 20 ">
             <SiTailwindcss />
           </svg>
         </div>
